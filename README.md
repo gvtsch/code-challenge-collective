@@ -1,7 +1,7 @@
 # Code Challenge Collective
 Welcome to the Code Challenge Collective! This GitHub repository is a platform where we can work together on various programming tasks, especially the Advent of Code tasks. Our goal is to improve our skills, learn new techniques and have fun programming together.
 
-<img src="/assets/img/MarineGEO_logo.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
+![Alt text](Imgs/rust.svg?raw=true "Title")
 
 The repository "Code Challenge Collective" provides a structured environment for solving programming tasks. By sharing this repository, we can not only manage our own solutions, but also learn from each other by reviewing and discussing our colleagues' code.
 
