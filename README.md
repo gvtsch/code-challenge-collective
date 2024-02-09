@@ -2,6 +2,7 @@
 Welcome to the Code Challenge Collective! This GitHub repository is a platform where we can work together on various programming tasks, especially the Advent of Code tasks. Our goal is to improve our skills, learn new techniques and have fun programming together.
 
 <p style="text-align: center;">
+    <img src="Imgs/Python-logo-notext.svg?raw=true" height="75"/>
     <img src="Imgs/rust.svg?raw=true" height="75"/>
     <img src="Imgs/ISO_C++_Logo.svg?raw=true" height="75"/>
     <img src="Imgs/Java-Logo.png?raw=true" height="75"/>
