@@ -9,6 +9,13 @@ Welcome to the Code Challenge Collective! This GitHub repository is a platform w
     <img src="Imgs/Matlab_Logo.png?raw=true" height="75"/>
     <img src="Imgs/github-logo.png?raw=true" height="75"/>
 </p>
+<p style="text-align: center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png" height="35"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/640px-PyTorch_logo_icon.svg.png" height="35"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" height="35"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxMR-Id8nKdjLyqkBenmytA-Pju33RlsRYM-c-jMWYXg&s" height="35"/>
+</p>
+
 
 
 
