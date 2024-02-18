@@ -33,3 +33,10 @@
 *.exe
 *.out
 *.app
+
+# Rust
+**/target/*
+**/debug/*
+**/*.rs.bk
+*.pdb
+**/Cargo.lock
