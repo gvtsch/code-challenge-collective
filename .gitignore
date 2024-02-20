@@ -40,3 +40,5 @@
 **/*.rs.bk
 *.pdb
 **/Cargo.lock
+
+**/events.out*
