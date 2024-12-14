@@ -1,4 +1,3 @@
-
 PATTERNS = ["XMAS", "SAMX"]
 
 def find_horizontal_patterns(lines):
@@ -72,22 +71,36 @@ def find_diagonal_patterns(lines):
 
 def find_x_mas(lines):
     grid = [list(line) for line in lines]
-    cnt = 0
+    cnt_m = 0
+    cnt_s = 0
+    cnt_a = 0
+    cnt_x = 0
+    num_rows = len(grid)
+    num_cols = len(grid[0])
 
-    patterns = [
-        ('M', 'S', 'A', 'M', 'S'),
-        ('S', 'S', 'A', 'M', 'M'),
-        ('M', 'M', 'A', 'S', 'S'),
-        ('S', 'M', 'A', 'S', 'M')
-    ]
+    for row in range(num_rows - 2):
+        for col in range(num_cols - 2):
+            if (grid[row][col]         == 'M' and grid[row][col + 2]     == 'S' and
+                grid[row + 1][col + 1] == 'A' and
+                grid[row + 2][col]     == 'M' and grid[row + 2][col + 2] == 'S'):
+                cnt_m += 1
+            elif (grid[row][col]         == 'S' and grid[row][col + 2]     == 'S' and
+                grid[row + 1][col + 1] == 'A' and
+                grid[row + 2][col]     == 'M' and grid[row + 2][col + 2] == 'M'):
+                cnt_s += 1
+            elif (grid[row][col]         == 'M' and grid[row][col + 2]     == 'M' and
+                grid[row + 1][col + 1] == 'A' and
+                grid[row + 2][col]     == 'S' and grid[row + 2][col + 2] == 'S'):
+                cnt_a += 1
+            elif (grid[row][col]         == 'S' and grid[row][col + 2]     == 'M' and
+                grid[row + 1][col + 1] == 'A' and
+                grid[row + 2][col]     == 'S' and grid[row + 2][col + 2] == 'M'):
+                cnt_x += 1
 
-    for row in range(len(grid) - 2):
-        for col in range(len(grid[0]) - 2):
-            for i, (c1, c2, c3, c4, c5) in enumerate(patterns):
-                if (grid[row][col] == c1 and grid[row][col + 2] == c2 and
-                    grid[row + 1][col + 1] == c3 and
-                    grid[row + 2][col] == c4 and grid[row + 2][col + 2] == c5):
-                    cnt+=1
+    print(cnt_m, cnt_s, cnt_a, cnt_x)
+
+    cnt = cnt_m + cnt_s + cnt_a + cnt_x
+
     return cnt
 
 def main():
